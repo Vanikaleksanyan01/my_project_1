@@ -18,7 +18,7 @@ function MyList() {
             {
                 arr.map((item, index) => <li key={index.toString()}>
                     {item.id}
-                    <img src={item.avatar_url} height={50} />
+                    <img src={item.avatar_url} height={150} />
                 </li>)
             }
         </>

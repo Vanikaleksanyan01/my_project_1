@@ -191,7 +191,7 @@
 //       arr.map((item, index) => <p key={index.toString()}>{item}</p>)
 //       } */}
 
-             
+
 //              {/* kstugenq ete true tpe ete che urish@ kam vochinch */}
 
 
@@ -199,7 +199,7 @@
 //     {/* {con ? <MyForm /> :  <MyButton title={'Save'} handleClick={onSave} test={true}/>} sa ktpe ete true arajin@,ete che erkrord@ */}
 //     {/* {con ? <MyForm /> :  null} sa ktpe tunn,ete tru chka vochinch */}
 //     {/* {con && <MyForm />} sa menak trun ktpe  */}
-     
+
 //       <MyForm />
 //       <MyButton title={'Save'} handleClick={onSave} test={true}/>
 //       <MyButton title={'Close'} handleClick={onClose} test={false}/>
@@ -225,24 +225,24 @@
 // import './App.css';
 // import MyButton from './components/MyButton';
 // import Counter from './Counter';
-                                                
+
 // function App() {
 // const [count, setCount] = useState(10);
-                                                
+
 // const changeCount = ()=>{
 //   setCount(count + 1);
 //  }
-                                                
+
 // return (
 
 //   <div>
 //     <MyButton title={'+'} handleClick={changeCount} />
 //     <Counter count={count}/>
 //   </div>
-                                                
+
 //  );
 // }
-                                                
+
 // export default App;
 
 
@@ -255,14 +255,14 @@
 // import './App.css';
 // import MyButton from './components/MyButton';
 // import Counter from './Counter';
-                                                
+
 // function App() {
 // const [list, setList] = useState([1, 2, 3, 4, 5]);
-                                                
+
 // const changeList = ()=>{
 //   setList([...list, list.at(-1) + 1]);
 //  }
-                                                
+
 // return (
 
 //   <div>
@@ -271,10 +271,10 @@
 //         list.map((item,index)=> <p style={{color: item%10?'black':'red'}} key ={index.toString()}>{item}</p>)
 //       }
 //   </div>
-                                                
+
 //  );
 // }
-                                                
+
 // export default App;
 
 
@@ -285,15 +285,16 @@
 // import MyLogin from './components/MyLogin';
 
 
+
 // function App() {
 //   return (
 //     <>
 //       <div>
 //         <p>React js</p>
 //       </div>
-// <MyLogin />
+//       <MyLogin />
 //     </>
-    
+
 //   );
 // }
 
@@ -304,6 +305,33 @@
 
 // React Das 5
 // Arajadranq id ov nkar gtnel
+
+
+// import './App.css';
+// import MyList from './components/MyList';
+
+
+// function App() {
+//   return (
+//     <>
+//       <div>
+//         <p>React js</p>
+//       </div>
+//       <MyList />
+//     </>
+
+//   );
+// }
+
+
+
+// export default App;
+
+
+
+
+
+
 
 
 import './App.css';
@@ -318,7 +346,7 @@ function App() {
       </div>
       <MyList />
     </>
-    
+
   );
 }
 
